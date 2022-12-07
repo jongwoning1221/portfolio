@@ -7,7 +7,8 @@ export default function Animation() {
     <Lottie
       loop
       animationData={lottieJson}
-      play  
+      play
+      style={{ width: `100%`, height: `100%` }}
     />
   )
 }
