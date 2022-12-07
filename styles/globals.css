@@ -75,3 +75,14 @@ Image {
     transform:scale(1.05);
     transition: transform .5s;
  }
+
+.back {
+    animation: rotate_image  3s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image {
+    50% {
+      transform: rotate(3deg);
+    }
+}

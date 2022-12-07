@@ -1,5 +1,7 @@
 import Animation from "./animation";
 import Link from "next/link";
+import Image from "next/image";
+import Back from "../../public/back.png"
 import MovingComponent from "react-moving-text";
 
 export default function Hero() {
@@ -30,7 +32,7 @@ export default function Hero() {
             </div>
             </div>
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                <Animation/>
+                <Image alt="react" className="object-cover object-center w-222 h-192 back m-auto" src={Back}/>
             </div>
         </>
     );
